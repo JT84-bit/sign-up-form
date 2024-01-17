@@ -1,0 +1,157 @@
+@font-face {
+    font-family: norse-font;
+    src: url("fonts/Norse-Bold.otf");
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+html, body ,.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 0;
+    background-image: url("img/image.jpg");
+    background-size:100%;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0;
+    justify-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.info-text {
+    width: 50%;
+    text-wrap: wrap;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.query-section {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    box-shadow: 0px 5px rgb(240, 240, 240);
+    margin-left: 30px;
+}
+
+.names, .contact, .password {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    gap: 60px;
+}
+
+.submit-section {
+    font-size: 10px;
+    display: flex;
+    flex: 2 1 0;
+    flex-direction: column;
+    justify-items: left;
+    align-content: flex-start;
+    margin-left: 30px;
+}
+
+.submit-section button {
+    background-color:#596D48;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content:center;
+    height: 130px;
+    line-height: 130px;
+    width: 100%;
+    background-color:rgba(5, 5, 5, 0.5);
+    color: white;
+}
+ 
+input {
+    border: color #E5E7EB;
+    border-style: 1px solid;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input, label{
+    display: block;
+}
+ .info, .submit-section {
+    background-color: rgb(250, 250 ,245);  
+ }
+ 
+.account-link a{
+    color: #596D48;
+    text-decoration: none;
+ }
+
+ .logo-text {
+    font-family: norse-font;
+    font-size: 100px;
+    margin-left: 0;
+ }
+
+ .logo img{
+    object-fit: contain;
+    width: 100px;
+    padding: 10px;
+ }
+
+ .account-link {
+    font-size: 12px;
+ }
+
+ .photo-link p{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    color: white;
+    font-size: 12px;
+ }
+
+ .photo-link a {
+    color: white;
+ }
