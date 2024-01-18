@@ -36,21 +36,22 @@ html, body ,.wrapper {
     flex-direction: column;
     flex: 2 1 0;
     justify-content: flex-end;
-    margin-bottom: 30px;
+  
 }
 
 .info-text {
     width: 50%;
     text-wrap: wrap;
-    margin-left: 30px;
+    margin-bottom: 20px;
+   
 }
 
-p {
+p{
     font-size: 20px;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
 }
 
 .query-section {
