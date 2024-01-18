@@ -155,3 +155,15 @@ input, label{
  .photo-link a {
     color: white;
  }
+
+ input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+  input:user-valid {
+    border-color: blue;
+  }
+
+  input:focus {
+    background-color: lightblue;
+  }
